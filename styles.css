@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: Janus Road;
+	src: url(JandusRoadCondensed.otf);
+}
+body{
+	background-color: #D3C4BE;
+}
+#content{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+.myBook{
+	background-color: #EFEEEE;
+	text-align: center;
+	border-radius: 20px / 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	width: 28%;
+}
+h1{
+/*	font-family: Courier New;*/
+	font-family: Janus Road;
+	text-align: center;
+	font-size: 5vw;
+}
+.bookTitle{
+	font-size: 4vw;
+}
+.bookAuthor{
+	font-size: 3vw;
+}
+.bookAuthor , .bookTitle {
+	font-family: Janus Road;
+	font-weight: 100;
+	color: #8A9988;
+}
+img{
+	height: 250px;
+	width: auto;
+}
